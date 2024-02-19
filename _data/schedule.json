@@ -1,0 +1,144 @@
+[
+    {
+        "day": "Monday (July 22)",
+        "events": [
+          {
+            "time": "11-13:00 EST",
+            "description": "Project Introduction / Project Milestone"
+          },
+          {
+            "time": "14-15:00 EST",
+            "description": "FAIR - Liberians(UT, Clemson/IOWA)"
+          }
+        ],
+        "lead":"Module 1-5 (Vidya)"
+      },
+      {
+        "day": "Tuesday (July 23)",
+        "events": [
+          {
+            "time": "11-13:00 EST",
+            "description": "Training on Data Retrieval (API/Web Service)"
+          },
+          {
+            "time": "14-15:00 EST",
+            "description":"Hands-on Workshop"
+          }
+        ],
+        "lead": "Module 2 (Ibrahim)"
+      },
+      {
+        "day": "Wednesday (July 24)",
+        "events":[
+            {
+                "time": "11-13:00 EST",
+                "description": "Training on Data Analytics (Analysis Tools)"
+            },
+            {
+                "time": "14-15:00 EST",
+                "description": "Hands-on Workshop"
+            }
+        ],
+        "lead":"Module 3 (Ibrahim)"
+      },
+
+      {
+        "day": "Thursday (July 25)",
+        "events":[
+            {
+                "time": "11-13:00 EST",
+                "description": "Training on Data Analytics (Visualization Tools)"
+            },
+            {
+                "time": "14-15:00 EST",
+                "description": "Hands-on Workshop"
+            }
+        ],
+        "lead": "Module 4 (Ibrahim)"
+      },
+      {
+        "day": "Friday (July 26)",
+        "events":[
+            {
+                "time": "11-13:00 EST",
+                "description": "Training on Scientific Communication (Alda Center)"
+            },
+            {
+                "time": "14-15:00 EST",
+                "description": "Hands-on Workshop"
+            }
+        ],
+        "lead": "Module 6 (Alda Center)"
+      },
+      {
+        "day": "Monday (July 29)",
+        "events": [
+          {
+            "time": "11-13:00 EST",
+            "description": "Project Progress Updates by Students"
+          },
+          {
+            "time": "14-15:00 EST",
+            "description": "CUAHSI(DEI and Science)"
+          }
+        ],
+        "lead":"Capstone Project"
+      },
+      {
+        "day": "Tuesday (July 30)",
+        "events": [
+          {
+            "time": "11-13:00 EST",
+            "description": "Self-Guided Work by Students"
+          },
+          {
+            "time": "14-15:00 EST",
+            "description":"Self-Guided Work by Students"
+          }
+        ],
+        "lead": "Alda Center & CUAHSI"
+      },
+      {
+        "day": "Wednesday (July 31)",
+        "events":[
+            {
+                "time": "11-13:00 EST",
+                "description": "Self-Guided Work by Students"
+            },
+            {
+                "time": "14-15:00 EST",
+                "description": "Self-Guided Work by Students"
+            }
+        ],
+        "lead":"Capstone Project"
+      },
+
+      {
+        "day": "Thursday (Aug 01)",
+        "events":[
+            {
+                "time": "11-13:00 EST",
+                "description": "Self-Guided Work by Students"
+            },
+            {
+                "time": "14-15:00 EST",
+                "description": "Self-Guided Work by Students"
+            }
+        ],
+        "lead": "Capstone Project"
+      },
+      {
+        "day": "Friday (Aug 02)",
+        "events":[
+            {
+                "time": "11-13:00 EST",
+                "description": "Project Presentations"
+            },
+            {
+                "time": "14-15:00 EST",
+                "description": "Closing Ceremony"
+            }
+        ],
+        "lead": "Capstone Project"
+      }
+]

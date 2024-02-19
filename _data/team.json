@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Vidya Samadi",
+        "position": "Assistant Professor, Clemson University",
+        "project_position": "Principal Organizer",
+        "linkedin": "",
+        "img": "vidya_samadi.jpeg"
+    },
+    {
+        "name": "Matthew Boyer",
+        "position": "Assistant Professor, Clemson University",
+        "project_position": "Organizer",
+        "linkedin": "",
+        "img": "matt_boyer.jpeg"
+    },
+    {
+        "name": "Demir Ibrahim",
+        "position": "Assistant Professor, The University of Iowa",
+        "project_position": "Organizer",
+        "linkedin": "",
+        "img": "demir_ibrahim.jpeg"
+    },
+    {
+        "name": "Bijaya Adhikari",
+        "position": "Assistant Professor, The University of Iowa",
+        "project_position": "Organizer",
+        "linkedin": "",
+        "img": "bijaya_adhikari.jpg"
+    },
+    {
+        "name": "Krishna Panthi",
+        "position": "Graduate Student, Clemson University",
+        "project_position": "Organizer",
+        "linkedin": "",
+        "img": "default_img.jpeg"
+    }
+
+]

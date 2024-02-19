@@ -1,0 +1,28 @@
+<section id="schedule" class="section mt-5 pt-5">
+    <h2>Schedule | Lunch: 13:00 - 14:00</h2>
+    <div id="scheduleContainer" class="timeline"></div>
+
+    <div class="timeline">
+        <!-- Week 1 -->
+
+        {% assign counter = 0 %}
+        {% for day in site.data.schedule %}
+        {% assign right = counter | modulo: 2 %}
+        {% if right == 0 %}
+        {% assign timeline_class = 'container-timeline left' %}
+        {% else %}
+        {% assign timeline_class = 'container-timeline right' %}
+        {% endif %}
+        <div class="container-timeline {{ timeline_class }}">
+            <div class="content">
+                <h4>{{ day.day }}</h4>
+                {% for event in day.events %}
+                <p><strong>{{ event.time }}:</strong> {{ event.description }}</p>
+                {% endfor %}
+                <p><em>Lead: {{ day.lead }}</em></p>
+            </div>
+        </div>
+        {% assign counter = counter | plus: 1 %}
+        {% endfor %}
+    </div>
+</section>

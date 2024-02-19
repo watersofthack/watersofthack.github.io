@@ -1,0 +1,244 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  overflow: hidden;
+}
+
+body{
+  overflow: auto;
+}
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #e9c46a;
+  margin-right: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+  color: #f4a261;
+  background-color: transparent;
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: #f4a261;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 162, 97, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.navbar-custom .navbar-nav {
+  text-align: center;
+}
+
+.navbar-bg-on-scroll {
+  background-color: black !important; /* Or any color you prefer */
+  transition: background-color 0.3s; /* Smooth transition for the background color */
+}
+
+section{
+  width: 100vw;
+}
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background: url('/assets/img/background.jpg') no-repeat center center;
+  background-size: cover;
+  padding-top: 5rem; /* Adjust based on your content */
+  padding-bottom: 5rem; /* Adjust based on your content */
+  color: white;
+  background-color: #2a9d8f;
+}
+
+
+@media (max-width: 991px) {
+  .navbar-custom .navbar-nav .nav-link {
+    color: #264653;
+  }
+}
+
+
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ddd;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+  .container-timeline {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+
+  .container-timeline.left {
+    left: 0;
+  }
+
+  .container-timeline.right {
+    left: 50%;
+  }
+
+  .container-timeline::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .right::after {
+    left: -16px;
+  }
+
+  .content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .left .content {
+    margin-left: 90px;
+  }
+
+  .right .content {
+    margin-right: 90px;
+  }
+
+  .content h2 {
+    margin-top: 0;
+    color: #333;
+  }
+
+
+
+#schedule{
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    float:none;
+    width: 100%;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#schedule{
+  background-color:#f7f1f1;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top{
+  width: auto;
+}
+
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-links li {
+  display: block;
+}
+.social-icons {
+  padding-left: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons a {
+  color: #fff;
+  background-color: #333333;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+.fa {
+  font-size: 25px;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
