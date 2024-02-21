@@ -10,30 +10,11 @@
                     <h5 class="card-title">{{person.name}}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{person.position}}</h6>
                     <p class="flex-grow-1">{{person.project_position}}</p>
-                    <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal"
-                        data-bs-target="#memberModal1">Read more</a>
+                    <a href="{{person.link}}" class="btn btn-primary mt-auto"  target="_blank">Read more</a>
                 </div>
             </div>
         </div>
         {% endfor %}
         <!-- Repeat for other team members -->
-    </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="memberModal1" tabindex="-1" aria-labelledby="memberModalLabel1" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="memberModalLabel1">Team Member Name</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Full description or biography of the team member goes here.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
     </div>
 </div>

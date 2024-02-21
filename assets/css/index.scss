@@ -1,5 +1,5 @@
----
----
+--- 
+--- 
 
 @import "{{ site.theme }}";
 
@@ -9,14 +9,6 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-}
-
-html{
-  overflow: hidden;
-}
-
-body{
-  overflow: auto;
 }
 
 .navbar-custom {
@@ -55,11 +47,13 @@ body{
 }
 
 .navbar-bg-on-scroll {
-  background-color: black !important; /* Or any color you prefer */
-  transition: background-color 0.3s; /* Smooth transition for the background color */
+  background-color: black !important;
+  /* Or any color you prefer */
+  transition: background-color 0.3s;
+  /* Smooth transition for the background color */
 }
 
-section{
+section {
   width: 100vw;
 }
 
@@ -69,8 +63,10 @@ section{
   text-align: center;
   background: url('/assets/img/background.jpg') no-repeat center center;
   background-size: cover;
-  padding-top: 5rem; /* Adjust based on your content */
-  padding-bottom: 5rem; /* Adjust based on your content */
+  padding-top: 5rem;
+  /* Adjust based on your content */
+  padding-bottom: 5rem;
+  /* Adjust based on your content */
   color: white;
   background-color: #2a9d8f;
 }
@@ -83,6 +79,189 @@ section{
 }
 
 
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container-timeline {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container-timeline.left {
+  left: 0;
+}
+
+.container-timeline.right {
+  left: 50%;
+}
+
+.container-timeline::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left .content {
+  margin-left: 90px;
+}
+
+.right .content {
+  margin-right: 90px;
+}
+
+.content h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+
+
+#schedule {
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f1f1;
+}
+
+#sponsors {
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f1f1;
+}
+
+section {
+  float: none;
+  width: 100%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top {
+  width: auto;
+}
+
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.site-footer a {
+  color: #737373;
+}
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.social-icons {
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons a {
+  color: #fff;
+  background-color: #333333;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.flex-vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (max-width: 750px) {
   .timeline {
     position: relative;
     max-width: 1200px;
@@ -96,15 +275,14 @@ section{
     background-color: #ddd;
     top: 0;
     bottom: 0;
-    left: 50%;
-    margin-left: -3px;
+    left: 25px;
   }
 
   .container-timeline {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
-    width: 50%;
+    width: 100%;
   }
 
   .container-timeline.left {
@@ -112,7 +290,7 @@ section{
   }
 
   .container-timeline.right {
-    left: 50%;
+    left: 0;
   }
 
   .container-timeline::after {
@@ -120,7 +298,7 @@ section{
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
+    left: 12.5px;
     background-color: white;
     border: 4px solid #FF9F55;
     top: 15px;
@@ -129,7 +307,7 @@ section{
   }
 
   .right::after {
-    left: -16px;
+    left: 12.5px;
   }
 
   .content {
@@ -141,11 +319,12 @@ section{
   }
 
   .left .content {
-    margin-left: 90px;
+    margin-left: 15px;
   }
 
   .right .content {
-    margin-right: 90px;
+    margin-left: 15px;
+    margin-right: 0;
   }
 
   .content h2 {
@@ -153,92 +332,4 @@ section{
     color: #333;
   }
 
-
-
-#schedule{
-    justify-content: center;
-    align-items: center;
-}
-
-section{
-    float:none;
-    width: 100%;
-}
-
-h2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#schedule{
-  background-color:#f7f1f1;
-}
-
-.card {
-  transition: transform 0.3s ease-in-out;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-}
-
-.card-img-top{
-  width: auto;
-}
-
-.site-footer {
-  background-color: #26272b;
-  padding: 45px 0 20px;
-  font-size: 15px;
-  line-height: 24px;
-  color: #737373;
-}
-.site-footer hr {
-  border-top-color: #bbb;
-  opacity: 0.5;
-}
-.site-footer h6 {
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-top: 5px;
-  letter-spacing: 2px;
-}
-.site-footer a {
-  color: #737373;
-}
-.site-footer a:hover {
-  color: #3366cc;
-  text-decoration: none;
-}
-.footer-links {
-  list-style: none;
-  padding-left: 0;
-}
-.footer-links li {
-  display: block;
-}
-.social-icons {
-  padding-left: 0;
-  list-style: none;
-}
-.social-icons li {
-  display: inline-block;
-  margin-bottom: 4px;
-}
-.social-icons a {
-  color: #fff;
-  background-color: #333333;
-  padding: 10px 15px;
-  border-radius: 50%;
-}
-.fa {
-  font-size: 25px;
-}
-
-@media (max-width: 991px) {
-  .site-footer [class^=col-] {
-    margin-bottom: 30px;
-  }
 }
