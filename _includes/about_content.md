@@ -6,7 +6,7 @@ WaterSoftHack is a multi-year NSF-funded project, dedicated to advancing water s
 
 ### Our Vision
 
-The vision of WaterSoftHack is to democratize access to advanced cyberinfrastructure approaches and cybertraining materials within the water science community. Our mission is to foster an inclusive academic environment that encourages exploration and innovation and increases researchers’ competence and confidence in CI prototyping and workflow development
+The vision of WaterSoftHack is to democratize access to advanced CI approaches and cybertraining materials within the water science community. Our mission is to foster an inclusive academic environment that encourages exploration and innovation and increases researchers’ competence and confidence in CI prototyping and workflow development
 
 ### Key Objectives
 
