@@ -8,11 +8,22 @@
             {% for sponsor in site.data.sponsors %}
             <div class="col-md-4 mb-4 d-flex align-items-stretch">
                 <div class="card">
+                    {% if sponsor.link %}
+                    <a href="{{sponsor.link}}" target="_blank">
+                        <img src="assets/img/{{sponsor.img}}" class="card-img-top" alt="Team Member Name">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">{{sponsor.name}}</h5>
+                            <strong>Award #2320979</span>
+                        </div>
+                    </a>
+                    {% endif %}
+                    {% unless sponsor.link %}
                     <img src="assets/img/{{sponsor.img}}" class="card-img-top" alt="Team Member Name">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">{{sponsor.name}}</h5>
                         <strong>Award #2320979</span>
                     </div>
+                    {% endunless %}
                 </div>
             </div>
             {% endfor %}

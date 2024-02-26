@@ -1,4 +1,7 @@
 [
+  {
+    "day": "Week 1"
+  },
     {
         "day": "Monday (July 22)",
         "events": [
@@ -69,6 +72,9 @@
             }
         ],
         "lead": "Module 6 (Alda Center)"
+      },
+      {
+        "day": "Week 2"
       },
       {
         "day": "Monday (July 29)",

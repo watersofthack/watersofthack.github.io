@@ -1,14 +1,39 @@
 <section id="schedule" class="section mt-5 pt-5">
     <div class="flex-vertical-center">
         <h2>Schedule (2 weeks)</h2>
-        <span>Lunch: 13:00 - 14:00</span>
     </div>
-    <div id="scheduleContainer" class="timeline"></div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Day</th>
+                    <th scope="col">11-13:00 EST</th>
+                    <th scope="col">13-14:00 EST</th>
+                    <th scope="col">14-15:00 EST</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for day in site.data.schedule %}
+                <tr>
+                    <th scope="row">{{ day.day}}</th>
+                    <td>{{ day.events[0].description }}</td>
+                    {% if day.events %}
+                    <td>Lunch</td>
+                    {% endif %}
+                    <td>{{ day.events[1].description }}</td>
+                </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+    <!-- <div id="scheduleContainer" class="timeline"></div>
 
     <div class="timeline">
         <!-- Week 1 -->
 
-        {% assign counter = 0 %}
+    <!-- {% assign counter = 0 %}
         {% for day in site.data.schedule %}
         {% assign right = counter | modulo: 2 %}
         {% if right == 0 %}
@@ -26,6 +51,6 @@
             </div>
         </div>
         {% assign counter = counter | plus: 1 %}
-        {% endfor %}
-    </div>
+        {% endfor %} -->
+    <!--</div> -->
 </section>
