@@ -1,14 +1,14 @@
-## About
+## About <br><br/>
 
-**Empowering Water Science Research Through Collaboration**
+##### Empowering Water Science Research Through Collaboration
 
 WaterSoftHack is a multi-year NSF-funded project, dedicated to advancing water science research and education through the synergistic power of cyberinfrastructure (CI) and machine learning training. This initiative is a collaborative effort led by Dr. Vidya Samadi from Clemson University, collaboratively with the University of Iowa and the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (CUAHSI).
 
-### Our Vision
+##### Our Vision
 
 The vision of WaterSoftHack is to democratize access to advanced CI approaches and cybertraining materials within the water science community. The goal is to foster an inclusive academic environment that encourages exploration and innovation and increases researchers’ competence and confidence in CI prototyping and workflow development
 
-### Key Objectives
+##### Key Objectives
 
 - **Educational Empowerment:** To provide accessible, high-quality cyber training and hackathons that bridge the gap between traditional water science research and cutting-edge computational methodologies.
 - **Research Innovation:** To spearhead the development of open-source machine learning models and cloud computing approaches that can contribute to sustainable water practices.

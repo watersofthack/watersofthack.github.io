@@ -261,6 +261,17 @@ h2 {
   border: 4px solid mistyrose !important;
 }
 
+.btn-custom-black{
+  border:0.5px solid white !important;
+  background-color: black !important;
+}
+
+.btn-custom-white{
+  background-color: white !important;
+  color: black !important;
+}
+
+
 @media (max-width: 991px) {
   .site-footer [class^=col-] {
     margin-bottom: 30px;
