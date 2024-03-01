@@ -1,7 +1,7 @@
 <section class="mt-5 pt-5" id="sponsors">
-    <div class="container">
+    <div class="container sponsors">
         <div class="flex-vertical-center">
-            <h2>Sponsors</h2>
+            <h2>Sponsors & Partners</h2>
         </div>
         <div class="row">
             <!-- Team member item -->
@@ -10,18 +10,22 @@
                 <div class="card">
                     {% if sponsor.link %}
                     <a href="{{sponsor.link}}" target="_blank">
-                        <img src="assets/img/{{sponsor.img}}" class="card-img-top" alt="Team Member Name">
+                        <div class="card-img-box">
+                            <img src="assets/img/{{sponsor.img}}" class="card-img-top" alt="{{sponsor.name}}">
+                        </div>
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title">{{sponsor.name}}</h5>
-                            <strong>Award #2320979</span>
+                            <p>{{sponsor.description}}</p>
                         </div>
                     </a>
                     {% endif %}
                     {% unless sponsor.link %}
-                    <img src="assets/img/{{sponsor.img}}" class="card-img-top" alt="Team Member Name">
+                    <div class="card-img-box">
+                        <img src="assets/img/{{sponsor.img}}" class="card-img-top" alt="{{sponsor.name}}">
+                    </div>
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">{{sponsor.name}}</h5>
-                        <strong>Award #2320979</span>
+                        <p>{{sponsor.description}}</p>
                     </div>
                     {% endunless %}
                 </div>

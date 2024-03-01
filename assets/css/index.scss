@@ -2,6 +2,7 @@
 --- 
 
 @import "{{ site.theme }}";
+$background-color-2: #f7f1f1;
 
 html,
 body {
@@ -53,10 +54,6 @@ body {
   /* Smooth transition for the background color */
 }
 
-section {
-  width: 100vw;
-}
-
 .hero-section {
   position: relative;
   overflow: hidden;
@@ -64,9 +61,7 @@ section {
   background: url('/assets/img/background_image.webp') no-repeat center center;
   background-size: cover;
   padding-top: 5rem;
-  /* Adjust based on your content */
   padding-bottom: 5rem;
-  /* Adjust based on your content */
   color: white;
   background-color: #2a9d8f;
 }
@@ -154,18 +149,18 @@ section {
 #schedule {
   justify-content: center;
   align-items: center;
-  background-color: #f7f1f1;
+  background-color: $background-color-2;
 }
 
 #sponsors {
   justify-content: center;
   align-items: center;
-  background-color: #f7f1f1;
+  background-color: $background-color-2;
 }
 
 section {
   float: none;
-  width: 100%;
+  width: 100vw;
 }
 
 h2 {
@@ -183,7 +178,17 @@ h2 {
 }
 
 .card-img-top  {
-  width: 25rem !important;
+  width: 95% !important;
+}
+
+.card-img-box{
+  width: 90%;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
 }
 
 .site-footer {
@@ -192,6 +197,26 @@ h2 {
   font-size: 15px;
   line-height: 24px;
   color: #737373;
+}
+
+.sponsors, .teams{
+  .card{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    p, h5{
+      text-align: center;
+    }
+
+    a{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }
 
 .site-footer hr {
@@ -271,6 +296,16 @@ h2 {
   color: black !important;
 }
 
+.about-content{
+  p, h5{
+    padding: 0;
+    margin: 20px 0px;
+  }
+  h5{
+    text-align: center;
+  }
+}
+
 
 @media (max-width: 991px) {
   .site-footer [class^=col-] {
@@ -284,78 +319,7 @@ h2 {
 
 
 @media (max-width: 750px) {
-  .timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #ddd;
-    top: 0;
-    bottom: 0;
-    left: 25px;
-  }
-
-  .container-timeline {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 100%;
-  }
-
-  .container-timeline.left {
-    left: 0;
-  }
-
-  .container-timeline.right {
-    left: 0;
-  }
-
-  .container-timeline::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 12.5px;
-    background-color: white;
-    border: 4px solid #FF9F55;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-  }
-
-  .right::after {
-    left: 12.5px;
-  }
-
-  .content {
-    padding: 20px 30px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .left .content {
-    margin-left: 15px;
-  }
-
-  .right .content {
-    margin-left: 15px;
-    margin-right: 0;
-  }
-
-  .content h2 {
-    margin-top: 0;
-    color: #333;
-  }
-
   .table{
     margin: 0 5%;
   }
-
 }

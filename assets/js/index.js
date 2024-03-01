@@ -25,6 +25,13 @@ window.addEventListener('scroll', function () {
   }
 });
 
+document.addEventListener('DOMContentLoaded', function(){
+  let year = new Date().getFullYear();
+  document.querySelector('#footer-year').textContent = year.toString() + " WaterSoftHack Project. All Rights Reserved.";
+
+})
+
+
 
 
 

@@ -2,6 +2,23 @@
     {
         "name": "National Science Foundation",
         "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2320979",
-        "img": "nsf_logo.webp"
+        "img": "nsf_logo.webp",
+        "description": "This project is supported by NSF via Award #2320979"
+    },
+    {
+        "name": "Clemson University",
+        "link": "https://clemson.edu",
+        "img": "clemson_logo.jpg"
+    },
+    {
+        "name": "The University of Iowa",
+        "link": "https://uiowa.edu/",
+        "img": "iowa_logo.png"
+    },
+    {
+        "name": "CUAHSI",
+        "link": "https://www.cuahsi.org",
+        "img": "cuahsi_logo.png",
+        "description": ""
     }
 ]
