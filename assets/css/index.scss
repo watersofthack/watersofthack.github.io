@@ -63,7 +63,54 @@ body {
   padding-top: 5rem;
   padding-bottom: 5rem;
   color: white;
-  background-color: #2a9d8f;
+  background-color: #0b0f0e;
+
+  h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    z-index: 3;
+  }
+
+
+  h5{
+    color: white;
+  }
+
+  .btn-apply{
+    margin: 10px;
+  }
+
+  .lead{
+    margin-top: 30px;  
+  }
+
+  text-shadow: -4px -4px 16px #000000;
+  font-weight: bold;
+
+
+  .btn-custom-white{
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+
+  }
+  
+}
+
+
+.hero-section::before {
+  content: '';  /* Pseudo-elements require the content property */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: 1; /* Ensures the overlay is above the background image but below the text content */
+}
+
+.hero-section * {
+  position: relative;
+  z-index: 2;
 }
 
 
@@ -295,6 +342,7 @@ h2 {
   background-color: white !important;
   color: black !important;
 }
+
 
 
 .about-content{
