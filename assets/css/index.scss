@@ -375,3 +375,13 @@ h2 {
   }
 }
 
+@media (max-width: 600px) {
+  .table{
+    margin: 0;
+  }
+  .table td, .table th {
+    padding: 0.15rem !important;
+    font-size: small;
+  }
+}
+
