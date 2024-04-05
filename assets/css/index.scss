@@ -2,6 +2,8 @@
 --- 
 
 @import "{{ site.theme }}";
+
+
 $background-color-2: #f7f1f1;
 
 html,
@@ -42,19 +44,42 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 162, 97, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-
 .navbar-custom .navbar-nav {
   text-align: center;
 }
 
 .navbar-bg-on-scroll {
   background-color: black !important;
-  /* Or any color you prefer */
   transition: background-color 0.3s;
-  /* Smooth transition for the background color */
 }
 
-.hero-section {
+.big-screen-head {
+  display: block;
+
+  .header-content-large {
+    position: absolute;
+    top: 36%;
+    left: 36%;
+
+    h5 {
+      color: white;
+      margin-top: 10px;
+    }
+  }
+
+
+  text-shadow: -4px -4px 16px #000000;
+  font-weight: bold;
+
+
+  .btn-custom-white {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  }
+
+}
+
+.small-screen-head {
+  display: none;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -65,47 +90,44 @@ body {
   color: white;
   background-color: #0b0f0e;
 
-  h1{
+  h1 {
     font-size: 3rem;
     font-weight: bolder;
     z-index: 3;
   }
 
-
-  h5{
+  h5 {
     color: white;
   }
 
-  .btn-apply{
+  .btn-apply {
     margin: 10px;
   }
 
-  .lead{
-    margin-top: 30px;  
+  .lead {
+    margin-top: 30px;
   }
 
   text-shadow: -4px -4px 16px #000000;
   font-weight: bold;
 
-
-  .btn-custom-white{
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
-
+  .btn-custom-white {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   }
-  
 }
 
 
 .hero-section::before {
-  content: '';  /* Pseudo-elements require the content property */
+  content: '';
+  /* Pseudo-elements require the content property */
   display: block;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3); 
-  z-index: 1; /* Ensures the overlay is above the background image but below the text content */
+  z-index: 1;
+  /* Ensures the overlay is above the background image but below the text content */
 }
 
 .hero-section * {
@@ -224,18 +246,16 @@ h2 {
   transform: translateY(-10px);
 }
 
-.card-img-top  {
+.card-img-top {
   width: 95% !important;
 }
 
-.card-img-box{
+.card-img-box {
   width: 90%;
   height: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  
 }
 
 .site-footer {
@@ -246,18 +266,20 @@ h2 {
   color: #737373;
 }
 
-.sponsors, .teams{
-  .card{
+.sponsors,
+.teams {
+  .card {
     background-color: transparent;
     display: flex;
     align-items: center;
     width: 100%;
 
-    p, h5{
+    p,
+    h5 {
       text-align: center;
     }
 
-    a{
+    a {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -326,36 +348,48 @@ h2 {
   flex-direction: column;
 }
 
-.table{
+.table {
   width: auto !important;
   margin: 0 20%;
   background-color: white;
   border: 4px solid mistyrose !important;
 }
 
-.btn-custom-black{
-  border:0.5px solid white !important;
+.btn-custom-black {
+  border: 0.5px solid white !important;
   background-color: black !important;
 }
 
-.btn-custom-white{
+.btn-custom-white {
   background-color: white !important;
   color: black !important;
   margin-top: 6px;
 }
 
 
-
-.about-content{
-  p, h5{
+.about-content {
+  p,
+  h5 {
     padding: 0;
     margin: 20px 0px;
   }
-  h5{
+
+  h5 {
     text-align: center;
   }
 }
 
+@media(max-width: 1230px) {
+  .big-screen-head {
+    display: block;
+
+    .header-content-large {
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+  }
+}
 
 
 @media (max-width: 991px) {
@@ -363,25 +397,34 @@ h2 {
     margin-bottom: 30px;
   }
 
-  .table{
+  .table {
     margin: 0 10%;
   }
-}
+
+  .big-screen-head {
+    display: none;
+  }
+
+  .small-screen-head {
+    display: block;
+  }
 
 
-@media (max-width: 750px) {
-  .table{
-    margin: 0 5%;
+  @media (max-width: 750px) {
+    .table {
+      margin: 0 5%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .table {
+      margin: 0;
+    }
+
+    .table td,
+    .table th {
+      padding: 0.15rem !important;
+      font-size: small;
+    }
   }
 }
-
-@media (max-width: 600px) {
-  .table{
-    margin: 0;
-  }
-  .table td, .table th {
-    padding: 0.15rem !important;
-    font-size: small;
-  }
-}
-
