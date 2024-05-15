@@ -1,8 +1,7 @@
---- 
---- 
+---
+---
 
 @import "{{ site.theme }}";
-
 
 $background-color-2: #f7f1f1;
 
@@ -64,18 +63,16 @@ body {
     h5 {
       color: white;
       margin-top: 10px;
+      font-size: 1rem;
     }
   }
-
 
   text-shadow: -4px -4px 16px #000000;
   font-weight: bold;
 
-
   .btn-custom-white {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   }
-
 }
 
 .small-screen-head {
@@ -83,7 +80,7 @@ body {
   position: relative;
   overflow: hidden;
   text-align: center;
-  background: url('/assets/img/background_image.webp') no-repeat center center;
+  background: url("/assets/img/background_image.webp") no-repeat center center;
   background-size: cover;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -91,13 +88,14 @@ body {
   background-color: #0b0f0e;
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     z-index: 3;
   }
 
   h5 {
     color: white;
+    font-size: 1rem;
   }
 
   .btn-apply {
@@ -116,9 +114,8 @@ body {
   }
 }
 
-
 .hero-section::before {
-  content: '';
+  content: "";
   /* Pseudo-elements require the content property */
   display: block;
   position: absolute;
@@ -135,13 +132,11 @@ body {
   z-index: 2;
 }
 
-
 @media (max-width: 991px) {
   .navbar-custom .navbar-nav .nav-link {
     color: #264653;
   }
 }
-
 
 .timeline {
   position: relative;
@@ -150,7 +145,7 @@ body {
 }
 
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   background-color: #ddd;
@@ -176,13 +171,13 @@ body {
 }
 
 .container-timeline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #ff9f55;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -212,8 +207,6 @@ body {
   margin-top: 0;
   color: #333;
 }
-
-
 
 #schedule {
   justify-content: center;
@@ -366,6 +359,9 @@ h2 {
   margin-top: 6px;
 }
 
+.header-font {
+  font-size: 2.75rem;
+}
 
 .about-content {
   p,
@@ -379,7 +375,7 @@ h2 {
   }
 }
 
-@media(max-width: 1230px) {
+@media (max-width: 1230px) {
   .big-screen-head {
     display: block;
 
@@ -391,9 +387,8 @@ h2 {
   }
 }
 
-
 @media (max-width: 991px) {
-  .site-footer [class^=col-] {
+  .site-footer [class^="col-"] {
     margin-bottom: 30px;
   }
 
@@ -408,7 +403,6 @@ h2 {
   .small-screen-head {
     display: block;
   }
-
 
   @media (max-width: 750px) {
     .table {

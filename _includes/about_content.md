@@ -2,7 +2,7 @@
 
 <h5>Inclusive Cyberinfrastructure and Machine Learning Training to Advance Water Science Research </h5>
 
-This CyberTraining project aims to cultivate the workforce that creates, utilizes, and supports advanced cyberinfrastructure (CI) workflows and tools to enable and potentially transform fundamental water science education and research. This is a multi-year NSF-funded project, dedicated to advancing water science research and education through the synergistic power of CI and machine learning training. This initiative is a collaborative effort led by Dr. Vidya Samadi from Clemson University, collaboratively with the University of Iowa and the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (CUAHSI).
+WaterSoftHack initiative aims to cultivate the workforce that creates, utilizes, and supports advanced cyberinfrastructure (CI) workflows and tools to enable and potentially transform fundamental water science education and research. This is a multi-year NSF-funded project, dedicated to advancing water science research and education through the synergistic power of CI and machine learning training. This initiative is a collaborative effort led by Dr. Vidya Samadi from Clemson University, collaboratively with the University of Iowa and the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (CUAHSI).
 <h5> Our Vision</h5>
 The vision of WaterSoftHack is to democratize access to advanced CI approaches and cybertraining materials within the water science community. The goal is to foster an inclusive academic environment that encourages exploration and innovation and increases researchers’ competence and confidence in CI prototyping and workflow development
 <h5> Key Objectives</h5>
