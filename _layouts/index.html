@@ -21,9 +21,10 @@
     <div id="sidebar">
       <nav id="table-of-contents">
         <div class="table-of-contents-section">
-            <h1>WaterSoftHack</h1>
             <a class="logo" href="/">
             <img title="WaterSoftHack logo, link to github page" src="{{ '/assets/img/watersofthack_logo.png' | relative_url }}" width=225 height=225 />
+            <h1>WaterSoftHack</h1>
+
             </a>
             <br>
             <a class="major-link-section" href="https://clemson.ca1.qualtrics.com/jfe/form/SV_6yQPl4W1fp0Rlau">
@@ -31,11 +32,12 @@
             </a>
         </div>
        
-
-        {% for other_page in site.html_pages %}
+      
+        {% assign sorted_pages = site.html_pages | sort: "title" %}
+        {% for other_page in sorted_pages %}
           {% if page.title == other_page.title %}
             <li class="table-of-contents-section active">
-              <a class="nav-link" href="{{ other_page.url | relative_url }}">
+              <a class="nav-link parent-link" href="{{ other_page.url | relative_url }}">
                 {{ other_page.title }}
               </a>
 
@@ -77,7 +79,7 @@
                     {% assign space = space | prepend: '    ' %}
                   {% endfor %}
 
-{% capture my_toc %}{{ my_toc }}
+                  {% capture my_toc %}{{ my_toc }}
 {{ space }}- [{{ header }}](#{{ html_id }}){: .nav-link}{% endcapture %}
 
                 {% endfor %}
@@ -87,7 +89,7 @@
             </li>
           {% else %}
             <li class="table-of-contents-section">
-              <a class="nav-link" href="{{ other_page.url | relative_url }}">
+              <a class="nav-link parent-link" href="{{ other_page.url | relative_url }}">
                 {{ other_page.title }}
               </a>
             </li>
@@ -99,7 +101,9 @@
     <a id="sidebar-toggle-link" href="#">☰</a>
 
     <main id="main-content">
-      {{ content }}
+      <div class="main-content">
+        {{ content }}
+      </div>
     </main>
   </div>
 </body>
