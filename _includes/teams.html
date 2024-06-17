@@ -1,23 +1,31 @@
 <div class="container teams" id="teams">
-    <h2 class="text-center my-5">Meet the Team</h2>
-    <div class="row">
-        <!-- Team member item -->
-        {% for person in site.data.team %}
-        <div class="col-md-4 mb-4 d-flex align-items-stretch">
-            <div class="card">
-                <div class="card-img-box">
-                <img src="assets/img/{{person.img}}" class="card-img-top" alt="Team Member Name">
-            </div>  
-
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">{{person.name}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{{person.position}}</h6>
-                    <p class="flex-grow-1">{{person.project_position}}</p>
-                    <a href="{{person.link}}" class="btn btn-dark mt-auto"  target="_blank">Learn more</a>
-                </div>
-            </div>
+  <h2 class="text-center my-5">Meet the Team</h2>
+  <div class="row">
+    <!-- Team member item -->
+    {% for person in site.data.team %}
+    <div class="col-md-3 mb-3 d-flex align-items-stretch">
+      <div class="card">
+        <div class="card-img-box">
+          <img
+            src="assets/img/{{person.img}}"
+            class="card-img-top"
+            alt="Team Member Name"
+          />
         </div>
-        {% endfor %}
-        <!-- Repeat for other team members -->
+
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">{{person.name}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted text-center">
+            {{person.position}}
+          </h6>
+          <p class="flex-grow-1">{{person.project_position}}</p>
+          <a href="{{person.link}}" class="btn btn-dark mt-auto" target="_blank"
+            >Learn more</a
+          >
+        </div>
+      </div>
     </div>
+    {% endfor %}
+    <!-- Repeat for other team members -->
+  </div>
 </div>
