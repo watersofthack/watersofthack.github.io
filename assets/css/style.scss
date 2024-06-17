@@ -44,7 +44,7 @@ a[href^="http"]:after {
   background: white;
   top: 0;
   bottom: 0;
-  min-width: $sidebar-width;
+  max-width: $sidebar-width;
   overflow-y: auto;
   border-right: 1px solid #ccc;
   z-index: 1;
