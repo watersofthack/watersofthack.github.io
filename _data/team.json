@@ -1,45 +1,51 @@
 [
-    {
-        "name": "Vidya Samadi",
-        "position": "Assistant Professor, Clemson University",
-        "project_position": "Principal Investigator",
-        "link": "https://www.clemson.edu/cafls/faculty_staff/profiles/samadi",
-        "img": "vidya_samadi.jpeg"
-    },
-    {
-        "name": "Matthew Boyer",
-        "position": "Research Associate Professor, Clemson University",
-        "project_position": "Co-Principal Investigator",
-        "link": "https://www.clemson.edu/cecas/departments/ese/people/esed-faculty/boyer.html",
-        "img": "matt_boyer.jpeg"
-    },
-    {
-        "name": "Demir Ibrahim",
-        "position": "Associate Professor, The University of Iowa",
-        "project_position": "Co-Principal Investigator",
-        "link": "https://engineering.uiowa.edu/people/ibrahim-demir",
-        "img": "demir_ibrahim.jpeg"
-    },
-    {
-        "name": "Bijaya Adhikari",
-        "position": "Assistant Professor, The University of Iowa",
-        "project_position": "Co-Principal Investigator",
-        "link": "https://cs.uiowa.edu/people/bijaya-adhikari",
-        "img": "bijaya_adhikari.jpg"
-    },
-    {
-        "name": "Anthony Castronova",
-        "position": "Senior Research Hydrologist at CUAHSI",
-        "project_position":"Co-Principal Investigator",
-        "link": "https://www.linkedin.com/in/anthony-castronova-900a2632/",
-        "img": "tCastronova.jpeg"
-    },
-    {
-        "name": "Krishna Panthi",
-        "position": "Graduate Student, Clemson University",
-        "project_position": "Graduate Research Assistant",
-        "link": "https://linkedin.com/in/krishnapanthi",
-        "img": "krishna_panthi.jpeg"
-    }
-
+  {
+    "name": "Vidya Samadi",
+    "position": "Assistant Professor, Clemson University",
+    "project_position": "Principal Investigator",
+    "link": "https://www.clemson.edu/cafls/faculty_staff/profiles/samadi",
+    "img": "vidya_samadi.jpeg"
+  },
+  {
+    "name": "Matthew Boyer",
+    "position": "Research Associate Professor, Clemson University",
+    "project_position": "Co-Principal Investigator",
+    "link": "https://www.clemson.edu/cecas/departments/ese/people/esed-faculty/boyer.html",
+    "img": "matt_boyer.jpeg"
+  },
+  {
+    "name": "Demir Ibrahim",
+    "position": "Associate Professor, The University of Iowa",
+    "project_position": "Co-Principal Investigator",
+    "link": "https://engineering.uiowa.edu/people/ibrahim-demir",
+    "img": "demir_ibrahim.jpeg"
+  },
+  {
+    "name": "Bijaya Adhikari",
+    "position": "Assistant Professor, The University of Iowa",
+    "project_position": "Co-Principal Investigator",
+    "link": "https://cs.uiowa.edu/people/bijaya-adhikari",
+    "img": "bijaya_adhikari.jpg"
+  },
+  {
+    "name": "Anthony Castronova",
+    "position": "Senior Research Hydrologist at CUAHSI",
+    "project_position": "Co-Principal Investigator",
+    "link": "https://www.linkedin.com/in/anthony-castronova-900a2632/",
+    "img": "tCastronova.jpeg"
+  },
+  {
+    "name": "Krishna Panthi",
+    "position": "Graduate Student, Clemson University",
+    "project_position": "Research Assistant",
+    "link": "https://linkedin.com/in/krishnapanthi",
+    "img": "krishna_panthi.jpeg"
+  },
+  {
+    "name": "Carlos E. Ramirez",
+    "img": "carlos.jpg",
+    "position": "Graduate Student, The University of Iowa",
+    "project_position": "Research Assistant",
+    "link": "https://www.iihr.uiowa.edu/people/carlos-erazo-ramirez/"
+  }
 ]
