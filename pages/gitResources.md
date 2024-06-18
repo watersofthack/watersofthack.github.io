@@ -72,4 +72,3 @@ To get started with Git, or to deepen your knowledge, here are some curated lear
 
 ---
 
-This guide should serve as a robust starting point for understanding and utilizing Git and GitHub in various projects, enhancing your workflow whether in software development or any other collaborative projects.
