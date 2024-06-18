@@ -1,77 +1,77 @@
 [
     {
         "name":"Mohamed Abdelkader",
-        "img":"mohammada.png",
+        "img":"mohammada.jpeg",
         "bio":"Mohamed Abdelkader, PhD candidate at Stevens Institute of Technology, focuses on applying advanced modeling and remote sensing techniques for environmental monitoring and enhance public scientific engagement. "
     },
     {
         "name":"Sergio Mendoza",
-        "img":"sergiom.png",
+        "img":"sergiom.jpeg",
         "bio": "Sergio Mendoza is a software engineer and environmental scientist, with significant contributions to NASA projects and full-stack web development. Sergio specializes in Python, JavaScript, C++, data science, and machine learning. "
     },
     {
         "name": "Ethiopia B Zeleke",
-        "img":"ethiopiabz.png",
+        "img":"ethiopiabz.jpeg",
         "bio": "Ethiopia B Zeleke, a doctoral candidate in Earth Systems Science at Florida International University. My research focus is hydrology and I work on modeling drought propagation and use model integration to inform interventions."
     },
     {
         "name": "Carlos Valentin Erazo Ramirez",
-        "img":"carlos.png",
+        "img":"carlos.jpeg",
         "bio": "Carlos E. Ramirez is a PhD student working as a research assistant at the University of Iowa under Prof. Ibrahim Demir. He focuses on developing web-based hydroinformatics tools for research and education."
     },
     {
         "name": "Suman Dhamala",
-        "img": "sumand.png",
+        "img": "sumand.jpeg",
         "bio": "I am Suman Dhamala, a Ph.D. student in Water Resources Engineering at Clemson University, with research interests in climate compound extremes, stochastic hydrology, and statistical modeling."
     },
     {
         "name": "Payton Davis",
-        "img": "paytond.png",
+        "img": "paytond.jpeg",
         "bio": "I am a PhD student in the College of Agriculture, Forestry and Life Sciences from Canton, Ga. My research is focused on soil water repellency in agroecosystems."
     },
     {
         "name": "Galina Shinkareva",
-        "img": "galinas.png",
+        "img": "galinas.jpeg",
         "bio": "Galina Shinkareva, a Postdoctoral Researcher at Illinois State University, investigates suspended sediment transport in rivers, bioturbation of bottom sediments effect on turbidity cycles, and the distribution of suspended and dissolved pollutants."
     },
     {
         "name": "Kunal Bhardwaj",
-        "img": "kunalb.png",
+        "img": "kunalb.jpeg",
         "bio": "Ph.D. student in Civil Engineering at Clemson University, specializing in climate extremes and hydrological modeling."
     },
     {
         "name": "Ochithya Fernando",
-        "img": "ochithyaf.png",
+        "img": "ochithyaf.jpeg",
         "bio": "Hi! My name is Ochithya. I'm from Sri Lanka and am going into my senior year in environmental engineering at the University of South Florida. I have been assisting graduate students in the watershed sustainability lab at USF since January 2023."
     },
     {
         "name": "Cielo Sharkus",
-        "img": "cielos.png",
+        "img": "cielos.jpeg",
         "bio": "Cielo A. Sharkus, PhD works with Dr. Christian Guzman at the University of Massachusetts Amherst. She uses hydrodynamic modeling, spatial analysis, and risk assessment tools to study exposure and adaptation to climate hazards. Her research examines past and potential impacts on watersheds in varying streamflow conditions."
     },
     {
         "name": "Claudia Corona",
-        "img": "claudiac.png",
+        "img": "claudiac.jpeg",
         "bio": "Dr. Corona's research interests are in hydrologic modeling (including machine learning), and related applications focusing on subsurface flow (infiltration, groundwater) processes, and climate change impacts on the hydrologic cycle."
     },
     {
         "name": "Abiodun Ayo-Bali",
-        "img": "abiodun.jpg",
+        "img": "abiodun.jpeg",
         "bio": "A dedicated geoscientist with passion for unraveling Earth mysteries. With a strong academic background and hands-on research experience, I thrive in exploring the complexities of our planet's geological processes."
     },
     {
         "name": "Moses Kiwanuka",
-        "img": "mosesk.png",
+        "img": "mosesk.jpeg",
         "bio": "I'm a civil engineering professional specializing in water resources, environmental, hydrology, drainage engineering, and watershed management. I am also experienced in GIS, Remote Sensing, and Machine Learning. Currently pursuing a Ph.D. in Earth Systems Science, focusing on Natural Resources Management."
     },
     {
         "name": "Srilani Wickramasinghe",
-        "img": "srilaniw.png",
+        "img": "srilaniw.jpeg",
         "bio": "I'm a third year PhD student in Dr. Marty D. Frisbee's Hydrogeology Lab, in the Department of Earth, Atmospheric and Planetary Sciences at Purdue University. My main research interest is studying large river basins and I currently use multi-isotope analyses and hydrogeochemical approaches. I'd like to expand my skill-set to use hydrologic modelling, machine learning & data analytical approaches in my research as well."
     },
     {
         "name": "Steve Yoon",
-        "img": "stevey.png",
+        "img": "stevey.jpeg",
         "bio": "Steve Yoon is a graduate student at Southern Methodist University interested in remote sensing and surface hydrology."
     }
 ]

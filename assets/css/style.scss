@@ -4,13 +4,14 @@
 @import "{{ site.theme }}";
 
 $padding: 20px;
-$sidebar-width: 300px;
+$sidebar-width: 315px;
 $sidebar-transition: left 0.25s;
 $container-width: 90%;
 
 body {
   overflow: scroll;
   font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 
   h1{
     color: #267CB9

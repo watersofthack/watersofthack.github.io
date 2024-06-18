@@ -4,27 +4,17 @@ title: Git and GitHub
 permalink: /gitresources/
 ---
 
-## Comprehensive Guide to Understanding and Learning Git and GitHub
-
-Welcome to this guide designed to help you, whether you are new to programming or looking to understand how version control systems like Git and GitHub can be useful beyond the tech sector.
-
-## Contents
-
-1. [Introduction to Git and GitHub](#introduction-to-git-and-github)
-2. [Application in Software Development](#application-in-software-development)
-3. [Learning Resources for Git](#learning-resources-for-git)
-
----
+Following guide gives a brief introduction to git and github and provides resources to further explore these topics on your own.
 
 ## Introduction to Git and GitHub
 
 ### What is Git?
 
-Git is a tool that helps keep track of changes made to files. Think of it as a powerful "undo" system, which lets you see what changes were made, when they were made, and by whom. It's useful for when multiple people are working on the same project as it allows you to merge changes without losing any work.
+Git is a tool(software) that helps keep track of changes made to files. Think of it as a powerful "undo" system, which lets you see what changes were made, when they were made, and by whom. It's very useful for when multiple people are working on the same project as it allows you to merge changes without losing any work. Even if you're working alone, it's very helpful in tracking your own changes, to maintain versions, for experimental work where you have to undo and redo stuffs frequently.
 
 ### What is GitHub?
 
-GitHub is a platform that hosts your projects online, making it easier for others to collaborate on them. You can think of GitHub as a Dropbox for projects where you can also track changes and work with others.
+GitHub is a platform that hosts your projects online, making it easier for others to collaborate on them. You can think of GitHub as a Dropbox for projects where you can also track changes and work with others. Even as an individual user, you can save a copy of your work, continuously update it and maintain a backup. You can also share your work with others. The projects are stored as repositories. You can have private repository or public repository depending upon whether you want to share your work or keep it to yourself.
 
 #### Key Benefits
 
@@ -33,14 +23,14 @@ GitHub is a platform that hosts your projects online, making it easier for other
 
 ---
 
-## Application in Software Development
+## Applications
 
-In software development, Git and GitHub are indispensable for managing project versions and collaboration. Git acts as a detailed record keeper, and GitHub serves as a central hub for project collaboration.
+In developing softwares, Git and GitHub are indispensable for managing project versions and collaboration. Git acts as a detailed record keeper, and GitHub serves as a central hub for project collaboration.
 
 ### Why They Matter
 
 - **Manage Changes**: Track and revert changes as needed.
-- **Collaboration**: Multiple developers can work on the same project simultaneously without conflicting with each other's changes.
+- **Collaboration**: Multiple developers/members can work on the same project simultaneously without conflicting with each other's changes.
 
 ### Uses in Projects
 
@@ -49,7 +39,7 @@ In software development, Git and GitHub are indispensable for managing project v
 
 ---
 
-## Learning Resources for Git
+## Learning Resources
 
 To get started with Git, or to deepen your knowledge, here are some curated learning resources, from detailed tutorials to interactive lessons.
 

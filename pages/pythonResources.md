@@ -4,7 +4,7 @@ title: Python
 permalink: /pythonresources/
 ---
 
-## Resources to Study Python
+This guide provides with basic materials to help you study python on your own.
 
 ### Refreshing Your Python Skills
 
