@@ -30,7 +30,7 @@ If you prefer video tutorials, YouTube offers an abundance of resources. Here ar
   [Python for Programmers](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU) - A series by Corey Schafer
 
 - **For Complete Beginners**  
-  [Harvard CS50’s Introduction to Programming with Python](https://www.youtube.com/playlist?list=PLhQjrBD2T382Nz7z1AEXmioc27axa19Kv) – Full University Course
+  [Harvard CS50’s Introduction to Programming with Python](https://www.youtube.com/watch?v=nLRL_NcnK-4) – Full University Course
 
 ### Learning Python From Books
 
