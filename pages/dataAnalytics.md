@@ -8,14 +8,13 @@ permalink: /Data-Analytics/
 
 ### Hydroinformatics Training - WaterSoftHack 2024
 
-
-This repository serves as a landing page and introduction of HydroSuite: A collection of web-based software for the development and analysis of hydrologic workflows designed by the Hydroinformatics Lab at the University of Iowa. These libraries can be used for:
+HydroSuite is a collection of web-based software for the development and analysis of hydrologic workflows designed by the Hydroinformatics Lab at the University of Iowa. These libraries can be used for:
 
 * Development of web applications.
 * In-browser fast analysis.
 * Enhancement of existing tools.
 
-The libraries shown throughout this material aim to highlight the use of web-based systems and showcase the potential implementation and improvements to the current hydrological needs.
+The libraries as part of this repository aim to highlight the use of web-based systems and showcase the potential implementation and improvements to the current hydrological needs.
 
 ### Introduction
 
