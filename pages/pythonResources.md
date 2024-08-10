@@ -6,7 +6,7 @@ permalink: /pythonresources/
 
 This guide provides with basic materials to help you study python on your own.
 
-### Refreshing Your Python Skills
+<!-- ### Refreshing Your Python Skills
 
 If you already have some experience with Python, use the following tutorials to refresh your knowledge:
 
@@ -14,11 +14,11 @@ If you already have some experience with Python, use the following tutorials to 
 - [Introduction to Python II](https://clemsonciti.github.io/rcde_workshops/python_programming/02-IntroToPython-II.html)
 - [Introduction to Python III](https://clemsonciti.github.io/rcde_workshops/python_programming/03-IntroToPython-III.html)
 
-These resources are not comprehensive but are designed to quickly bring back your existing Python knowledge.
+These resources are not comprehensive but are designed to quickly bring back your existing Python knowledge. -->
 
 ### Comprehensive Python Tutorials
 
-For a more in-depth study, consider going through the official Python tutorials:
+For an in-depth study, consider going through the official Python tutorials:
 
 - [Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
