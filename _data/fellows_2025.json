@@ -1,0 +1,93 @@
+[
+    {
+        "name":"Aashish Gautam",
+        "img":"aashish.jpg",
+        "bio": "M.S. student in Civil Engineering  and Graduate Research Assistant at the Jackson State University (JSU) Water Lab,and is  focusing on using satellite imagery for suspended sediment measurement. "
+    },
+    {
+        "name": "Abiodun Emmanuel Ayo-Bali",
+        "img": "AyoBali.png",
+        "bio": "Geoscientist at the University of Pittsburgh who is passionate about understanding Earth's surface processes shaped by air, water, land, and human interactions, using data-driven methods to study environmental change and promote sustainable solutions."
+    },
+    {
+        "name": "Addie Hedges",
+        "img":"addie.png",
+        "bio": "M.S. student in the Rubenstein School of Environment and Natural Resources at University of Vermont. Her research focuses on stream biogeochemistry and watershed processes in the face of changing northeastern winters."
+    },
+    {
+        "name": "Alexi Sommerville",
+        "img": "alexi.jpg",
+        "bio": "M.S. student in hydrogeology at the University of Kansas, working on machine-learning approaches for watershed-scale water quality forecasting, particularly in non-perennially flowing hydrologic systems."
+    },
+    {
+        "name": "Ariane Jong-Levinger",
+        "img": "ariane.jpg",
+        "bio": "Postdoctoral Fellow at Chapman University who models post-fire hydrology, floods, and debris flows to inform long-term emergency planning and resilient infrastructure design."
+    },
+    {
+        "name": "Claudia Corona",
+        "img": "claudiac.jpeg",
+        "bio": "Postdoctoral researcher at the Colorado School of Mines. Her research interests are in hydrologic modeling and machine learning focusing on subsurface flow processes, and climate change impacts on the hydrologic cycle."
+    },
+    {
+        "name": "Damian Elmore",
+        "img": "damian.jpg",
+        "bio": "Natural systems student scientist studying water resource impacts of mining. Interested in using machine learning and geospatial data to protect ecosystems and inform environmental decisions."
+    },
+    {
+        "name": "Ethiopia B Zeleke",
+        "img":"ethiopia.png",
+        "bio": "Ph.D. candidate in Earth Systems Science at Florida International University. Her research focuses on hydrology and drought modeling for informed decision-making processes."
+    },
+    {
+        "name": "Galina Shinkareva",
+        "img": "galinas.jpeg",
+        "bio": "Postdoctoral Researcher at Illinois State University. Galina investigates suspended sediment transport in rivers, the bioturbation of bottom sediment' effect on turbidity cycles, and the distribution of suspended and dissolved pollutants."
+    },
+    {
+        "name": "Hassan Saleh",
+        "img": "hassan.jpg",
+        "bio": "Ph.D. candidate at Western Michigan University investigating groundwater recharge from extreme precipitation in arid regions. Hassan is interested in hydrological modeling, climate extremes, and spatial data analysis."
+    },
+    {
+        "name": "Krishna Panthi",
+        "img": "krishna.jpg",
+        "bio": "M.S. student in computer science at Clemson University. His research involves applied machine learning in hydrology and agriculture."
+    },
+    {
+        "name": "Maral Khodadadi",
+        "img": "maral.jpg",
+        "bio": "Ph.D. candidate at Miami University focusing on hydrogeochemistry and climate change impacts on terrestrial and aquatic ecosystems, with expertise in isotope analysis, environmental data science, machine learning, and geospatial analysis."
+    },
+    {
+        "name": "Meghana Nagaraj",
+        "img": "meghana.jpeg",
+        "bio": "Postdoctoral research scholar at the University of Central Florida, working on storm surge prediction using machine learning. Passionate about water, climate resilience, and building data-driven solutions for real world environmental challenges. "
+    },
+    {
+        "name":"Mohamed Abdelkader",
+        "img":"mohammada.jpeg",
+        "bio":"Postdoctoral Research Scholar at University of Iowa, focuses on applying advanced modeling and remote sensing techniques for environmental monitoring and enhance public scientific engagement."
+    },
+    {
+        "name": "Moses Kiwanuka",
+        "img": "mosesk.jpeg",
+        "bio": "Ph.D. Candidate in Earth Systems Science at Florida International University. His research focuses on Water Quality monitoring for inland water bodies using remote sensing and machine learning techniques. Other research interests include Water Resources, Environmental, Hydrology, and watershed management."
+    },
+    
+    {
+        "name": "Neda Safari",
+        "img": "neda.jpg",
+        "bio": "Ph.D. student in Ecosystem Science and Sustainability at Colorado State University. Her research focuses on climate change impacts on high alpine groundwater systems."
+    },
+    {
+        "name": "Sanjeev Sharma",
+        "img": "sanjeev.jpeg",
+        "bio": "Ph.D. student in climate-smart agriculture and forestry, using ASD for agricultural analysis and remote sensing with AI for forestry to enhance sustainable land management and optimize carbon market strategies."
+    },
+    {
+        "name": "Sophia Bakar",
+        "img": "Sophia.jpg",
+        "bio": "Ph.D. candidate at the University of Virginia using machine learning and deep learning methods to predict flash droughts, assess hydrologic impacts, and improve drought monitoring with the integration of remote sensing data."
+    }
+]
