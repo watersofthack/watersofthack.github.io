@@ -40,5 +40,26 @@
     "project_position": "Research Assistant",
     "link": "https://linkedin.com/in/krishnapanthi",
     "img": "krishna.jpg"
+  },
+  {
+    "name": "Mostafa Saberian",
+    "position": "Graduate Student, Clemson University",
+    "project_position": "Research Assistant",
+    "link": "https://www.linkedin.com/in/mostafa-saberian-3a6106194/",
+    "img": "mostafa.jpg"
+  },
+  {
+    "name": "Adarsha Neupane",
+    "position": "Graduate Student, Clemson University",
+    "project_position": "Research Assistant",
+    "link": "https://www.linkedin.com/in/adarsha-neupane-b95a22238/",
+    "img": "adarsha.jpeg"
+  },
+  {
+    "name": "Nima Zafarmomen",
+    "position": "Graduate Student, Clemson University",
+    "project_position": "Research Assistant",
+    "link": "https://www.linkedin.com/in/nima-zafarmomen/",
+    "img": "nimaz.jpeg"
   }
 ]
