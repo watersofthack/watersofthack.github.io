@@ -39,4 +39,13 @@ For a more structured approach, consider learning Python from a book. There are 
 - **Learning Python, 5th Edition by Mark Lutz**  
   This book offers a comprehensive, in-depth introduction to Python, perfect for those who prefer a more traditional method of learning.
 
+### Google Colab
+
+During our training period, we will be using **Python via Google Colab**.  
+It is preferable that all participants are at least **familiar with Google Colab** beforehand.
+
+To get started, please walk through the following video playlist for a basic understanding of how Google Colab works:
+
+📺 [Google Colab Basics - YouTube Playlist](https://www.youtube.com/playlist?list=PLQY2H8rRoyvyK5aEDAI3wUUqC_F0oEroL)
+
 Happy learning!
