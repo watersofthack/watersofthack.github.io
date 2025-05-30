@@ -10,7 +10,7 @@ Below are the presentations and the final combined report submitted by each team
 
 ---
 
-## 📄 [Team Stream Temperature](../resources/Stream_temperature.pdf)
+[Stream Temperature Team slides](/resources/Stream_temperature.pdf)
 
 **Title:** *Stream Temperature Variability and its Relationship to Large-Scale Climate Indices across the United States*
 
@@ -19,7 +19,7 @@ Claudia Corona, Mohamed Abdelkader, Sunwoo (Steve) Yoon, Ochithya Fernando, Ciel
 
 ---
 
-## 📄 [Team Drought](../resources/Team_Drought.pdf)
+ [Drought Team slides](/resources/Team_Drought.pdf)
 
 **Title:** *Web-based Integrated Drought Monitoring and Analysis with Copula Models*
 
@@ -28,7 +28,7 @@ Suman Dhamala, Kunal Bhardwaj, Ethiopia Zeleke, Moses Kiwanuka
 
 ---
 
-## 📄 [Team Turbidity](../resources/Turbidity_team.pdf)
+ [Turbidity Team slides](/resources/Turbidity_team.pdf)
 
 **Title:** *Clear Data, Clearer Waters: An Interactive Dashboard for Visualizing Stream Turbidity Trends*
 
@@ -37,7 +37,7 @@ Abiodun Ayo-Bali, Payton Davis, Sergio Mendoza, Galina Shinkareva, Srilani Wickr
 
 ---
 
-## 📄 [WaterSoftHack – Combined Report](../resources/WaterSoftHack_combined_report.pdf)
+[WaterSoftHack – Combined Report](/resources/WaterSoftHack_combined_report.pdf)
 
 **Title:** *Collaborative Report of all capstone projects.*
 
