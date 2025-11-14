@@ -81,9 +81,10 @@ a[href^="http"]:after {
   }
 }
 
-.nav-link.active {
+.nav-link.active{
   text-decoration: underline;
 }
+
 
 a > span {
   text-decoration: inherit;
