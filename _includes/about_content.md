@@ -11,4 +11,4 @@ The vision of WaterSoftHack is to democratize access to advanced CI approaches a
 - **Collaborative Synergy:** To cultivate the workforce that creates, utilizes, and supports advanced CI workflows and tools to enable and potentially transform fundamental water science education and research.
 - **Community Engagement:** To broaden the adoption of advanced CI tools and move the larger water science community toward more widely adopting CI approaches.
 
-For information on how to get involved or support our mission, please reach out to us at [watersofthack@clemson.edu](mailto:watersofthack@clemson.edu).
+For information on how to get involved or support our mission, please reach out to us at [watersofthack@clemson.edu](mailto:watersofthack@clemson.edu). Please review our [Code of Conduct](./../resources/CodeOfConduct_WaterSoftHack.pdf) before joining.
