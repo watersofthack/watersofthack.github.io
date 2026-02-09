@@ -7,21 +7,21 @@
         "events": [
           {
             "time": "11-13:00 EST",
-            "description": "Project Introduction / Project Milestone"
+            "description": "11:00-12:00	&nbsp; Project Introduction <br> 12:00-13:00	&nbsp;  Big and real-time data problems in Hydroscience"
           },
           {
             "time": "14-15:00 EST",
             "description": "CUAHSI presentation"
           }
         ],
-        "lead":"Module 1-5 (Vidya)"
+        "lead":"Module 1-5 (Bijaya)"
       },
       {
         "day": "Tuesday (July 21)",
         "events": [
           {
             "time": "11-13:00 EST",
-            "description": "Cloud Computing Fundamentals"
+            "description": "Introduction to cloud computing"
           },
           {
             "time": "14-15:00 EST",
@@ -35,7 +35,7 @@
         "events":[
             {
                 "time": "11-13:00 EST",
-                "description": "Cloud -> Edge computing"
+                "description": "Edge computing"
             },
             {
                 "time": "14-15:00 EST",
@@ -50,7 +50,7 @@
         "events":[
             {
                 "time": "11-13:00 EST",
-                "description": "Edge Computing"
+                "description": "Hybrid Approaches"
             },
             {
                 "time": "14-15:00 EST",
