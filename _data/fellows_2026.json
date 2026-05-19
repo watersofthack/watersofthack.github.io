@@ -1,0 +1,87 @@
+[
+    {
+        "name":"Omid Zandi",
+        "bio":"Ph.D. student in Hydrology and Atmospheric Sciences at the University of Arizona, passionate about integrating AI, remote sensing, and high-performance computing for Earth science applications.",
+        "img":"omid.png"
+    },
+    {
+        "name": "Damian Elmore",
+        "bio": "Undergraduate student at the College of Coastal Georgia studying Environmental Science. He focuses on using geospatial and quantitative models to apply data science to environmental resilience. ",
+        "img": "damian.jpg"
+    },
+    {
+        "name": "Amirhossein Montazeri",
+        "bio": "Ph.D. student in Data Science at Boise State University, specializing in remote sensing, GeoAI, and AI-driven modeling of environmental extremes.",
+        "img": "amir.png"
+    },
+    {
+        "name": "Francisco J. Gomez",
+        "bio": "Postdoctoral researcher at the University of Kansas specializing in compound flooding, inundation mapping, and morphodynamic river processes using 2D hydrodynamics, machine learning, and remote sensing.",
+        "img": "francisco.png"
+    },
+    {
+        "name": "Meghana Nagaraj",
+        "bio": "Postdoctoral research scholar at the University of Central Florida, working on storm surge prediction using machine learning. Passionate about water, climate resilience, and building data-driven solutions for real world environmental challenges. ",
+        "img": "meghana.jpeg"
+    },
+    {
+        "name": "Abiodun Emmanuel Ayo-Bali",
+        "img": "AyoBali.png",
+        "bio": "Geoscientist at the University of Pittsburgh who is passionate about understanding Earth's surface processes shaped by air, water, land, and human interactions, using data-driven methods to study environmental change and promote sustainable solutions."
+    },
+    {
+        "name": "Maral Khodadadi",
+        "bio": "Ph.D. candidate at Miami University specializing in hydrogeochemistry and climate‑driven impacts on terrestrial and aquatic ecosystems, with expertise in isotopic geochemistry, environmental data science, machine learning, geospatial analysis, and watershed modeling.",
+        "img": "maral.jpg"
+    },
+    {
+        "name": "Ehsan Kahrizi",
+        "bio": "Ph.D. student in University of Alabama specializing in Hydroinformatics and edge computing in water systems, environmental sensor data post-processing, automated real-time workflows, and scalable cloud-ready systems.",
+        "img": "ehsan.png"
+    },
+    {
+        "name": "Sunil Bista",
+        "bio": "Ph.D. Candidate in Civil and Environmental Engineering at Jackson State University. His research focuses on developing integrated climate-hydrology-hydrodynamic modeling frameworks for enhanced flood hazard assessment and risk quantification.",
+        "img": "sunil.png"
+    },
+    {
+        "name": "Jenna Brooks",
+        "bio": "Ph.D. candidate in civil engineering at Northeastern University with research on integrating remote sensing, hydraulic geometry, and machine learning for flood hazard assessment.",
+        "img": "jenna.png"
+    },
+    {
+        "name": "Arman Oliazadeh",
+        "bio": "Ph.D. student at the University of Georgia specializing in hydrology and water resources. My research mainly focuses on using remote sensing, machine learning and climate models to predict coastal wetland productivity under future climate scenarios.",
+        "img": "arman.png"
+    },
+    {
+        "name": "Ayobami Oni",
+        "bio": "Ph.D. student at Purdue University working on groundwater monitoring, hydrologic modeling, and water-data analysis, with interests in sensing, computation, and water-resources decision support.",
+        "img": "oni.png"
+    },
+    {
+        "name": "Ethiopia Zeleke",
+        "bio": "Ph.D. Candidate in Earth Systems Science at Florida International University. I work on optimizing the process of tracing drought signals across systems and sectors. I study the spatiotemporal evolution of droughts aimed at early warning, impact mitigation, and enhanced intervention.",
+        "img": "ethiopia.png"
+    },
+    {
+        "name": "Hassan Saleh",
+        "bio": "Ph.D. candidate in Geosciences at Western Michigan University, researching groundwater recharge from extreme precipitation using satellite remote sensing, machine learning, and hydrological modeling in arid environments.",
+        "img": "hassan.png"
+    },
+    {
+        "name": "Rayan Rasheed",
+        "bio": "Ph.D. student in Computer Science at Michigan State University, specializing in deep learning and artificial intelligence for environmental and water resource systems.",
+        "img": "rayan.png"
+    },
+    {
+        "name": "Galina Shinkareva",
+        "img": "galinas.jpeg",
+        "bio": "Assistant Professor at Middle Tennessee State University, specializing in freshwater pollutant dynamics, sediment transport, and the spatial and temporal patterns of urban light pollution."
+    },
+    {
+        "name": "Mihail Neagu",
+        "bio": "Ph.D. student in Computer Science at University of Iowa, specializing in cloud computing.",
+        "img": "mihail.png"
+    }
+]
